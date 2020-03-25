@@ -72,3 +72,30 @@
   line-height: 21px;
   font-size: 16px;
 }
+@media screen and (max-width: 425px) {
+  .profile-container ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .profile-container header {
+    display: block;
+  }
+  .profile-container header span,img {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .profile-container header a {
+    width: 100%;
+  }
+  .profile-container button {
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 15px
+  }
+  .profile-container h1 {
+    margin: 30px 0 15px 0;
+    width: 100%;
+    text-align: center;
+  }
+}

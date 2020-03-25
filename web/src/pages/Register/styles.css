@@ -51,4 +51,50 @@
 
 .register-container .content form .input-group input + input {
   margin-left: 8px;
+  width: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .register-container .content {
+    padding: 30px;
+  }
+  .register-container .content form {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .register-container .content {
+    height: 100%;
+  }
+  .register-container .content form {
+    margin-left: 0;
+  }
+  .register-container .content section h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .register-container .content section a {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .register-container .content section img {
+    margin: 0 auto;
+    width: 40%;
+  }
+  .register-container .content {
+    display: inline-block;
+  }
+  .register-container .content form .input-group {
+    display: initial;
+  }
+  .register-container .content form input {
+    margin: 0;
+  }
+  .register-container .content form .input-group input + input {
+    margin: 0;
+    width: 100%;
+  }
+  .register-container .content form button {
+    margin-bottom: 20px;
+  }
 }
