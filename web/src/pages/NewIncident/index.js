@@ -49,16 +49,19 @@ export default function Register() {
             placeholder="Título do caso"
             value={title}
             onChange={e => setTitle(e.target.value)}
+            required
           />
           <textarea
             placeholder="Descrição"
             value={description}
             onChange={e => setDescription(e.target.value)}
+            required
           />
           <input
             placeholder="Valor em Reais"
             value={value}
             onChange={e => setValue(e.target.value)}
+            required
           />
           <button className="button" type="submit">
             Cadastrar
